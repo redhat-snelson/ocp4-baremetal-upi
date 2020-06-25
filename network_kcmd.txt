@@ -1,0 +1,2 @@
+vlan=vlan120:bond0
+bond=bond0:eno5,eno6:mode=4,miimon=100
