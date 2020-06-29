@@ -1,0 +1,48 @@
+{
+  "storage": {
+    "disks": {
+      "partitions": [
+        {
+          "label": "ROOT",
+          "number": 1,
+          "size": 0,
+          "start": 0,
+          "typeGuid": "",
+          "guid": ""
+        },
+        {
+          "label": "HOME",
+          "number": 2,
+          "size": 0,
+          "start": 0,
+          "typeGuid": "",
+          "guid": ""
+        },
+        {
+          "label": "VAR",
+          "number": 3,
+          "size": 0,
+          "start": 0,
+          "typeGuid": "",
+          "guid": ""
+        },
+        {
+          "label": "LOG",
+          "number": 4,
+          "size": 0,
+          "start": 0,
+          "typeGuid": "",
+          "guid": ""
+        },
+        {
+          "label": "AUDIT",
+          "number": 5,
+          "size": 0,
+          "start": 0,
+          "typeGuid": "",
+          "guid": ""
+        }
+      ]
+    }
+  }
+}
