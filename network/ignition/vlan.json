@@ -1,0 +1,4 @@
+{
+    "name": "20-bond0.120.netdev",
+    "contents": "[NetDev]\nName=bond0.120\nKind=vlan"
+}

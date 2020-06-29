@@ -1,0 +1,11 @@
+{
+    "path": "/var/log/audit",
+    "mount": {
+        "device": "",
+        "format": "",
+        "wipeFilesystem": false,
+        "label": "",
+        "uuid": "",
+        "options": {}            
+    }
+}

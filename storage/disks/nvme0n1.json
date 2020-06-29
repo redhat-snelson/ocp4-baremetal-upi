@@ -1,0 +1,7 @@
+"disks": [
+{
+"device": "/dev/nvme0n1",
+"wipeTable": true,
+"partitions": []
+}
+],

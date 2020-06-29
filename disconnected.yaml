@@ -1,0 +1,12 @@
+additionalTrustBundle: |
+  -----BEGIN CERTIFICATE-----
+  ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+  -----END CERTIFICATE-----
+imageContentSources:
+- mirrors:
+  - registry.ocp4.example.com:5000/ocp4/openshift4
+  source: quay.io/openshift-release-dev/ocp-release-nightly
+
+- mirrors:
+  - registry.ocp4.example.com:5000/ocp4/openshift4
+  source: quay.io/openshift-release-dev/ocp-v4.0-art-dev

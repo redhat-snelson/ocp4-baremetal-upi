@@ -1,0 +1,11 @@
+{
+    "path": "/var",
+    "mount": {
+        "device": "/dev/disk/by-label/VAR",
+        "format": "crypto_LUKS",
+        "wipeFilesystem": false,
+        "label": "VAR",
+        "uuid": "00000000-0000-4000-A000-000000000002",
+        "options": {}            
+    }
+}

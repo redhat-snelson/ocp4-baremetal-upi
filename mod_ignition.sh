@@ -114,6 +114,7 @@ EOF
 modify_ignition(){
   cp -u ${NGINX_DIRECTORY}/${TYPE}.ign ${NGINX_DIRECTORY}/${HOST}.ign.orig
   jq '.storage.files += [inputs]' ${NGINX_DIRECTORY}/${HOST}.ign.orig ${NGINX_DIRECTORY}/${HOST}-hostname.json ${HOST}-ifcfg-eno1.json ${HOST}-ifcfg-eno2.json ${NGINX_DIRECTORY}/hostname-mode.json > ${NGINX_DIRECTORY}/${HOST}.ign
+  #jq '.storage.files += [inputs]' ${NGINX_DIRECTORY}/${HOST}.ign.orig ${NGINX_DIRECTORY}/${HOST}-hostname.json ${HOST}-ifcfg-eno1.json ${HOST}-ifcfg-eno2.json ${NGINX_DIRECTORY}/hostname-mode.json > ${NGINX_DIRECTORY}/${HOST}.ign
   rm -f ${NGINX_DIRECTORY}/${HOST}-hostname.json ${HOST}-ifcfg-eno1.json ${HOST}-ifcfg-eno2.json
 }
 

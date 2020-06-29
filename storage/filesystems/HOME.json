@@ -1,0 +1,11 @@
+{
+    "path": "/",
+    "mount": {
+        "device": "/dev/disk/by-label/HOME",
+        "format": "",
+        "wipeFilesystem": false,
+        "label": "",
+        "uuid": "",
+        "options": {}            
+    }
+}

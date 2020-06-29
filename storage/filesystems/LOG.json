@@ -1,0 +1,11 @@
+{
+    "path": "/var/log",
+    "mount": {
+        "device": "",
+        "format": "",
+        "wipeFilesystem": false,
+        "label": "",
+        "uuid": "",
+        "options": {}            
+    }
+}
